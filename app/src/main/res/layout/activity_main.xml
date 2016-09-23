@@ -15,4 +15,14 @@
         android:layout_height="wrap_content"
         android:text="@string/button_send"
         android:onClick="sendMessage"/>
+>
 </LinearLayout>
+
+    <!--
+
+In the file res > layout > activity_main.xml, add the android:onClick attribute to the <Button>
+element as shown below:
+
+This attribute tells the system to call the sendMessage() method in your activity whenever a user
+clicks on the button.
+    -->
